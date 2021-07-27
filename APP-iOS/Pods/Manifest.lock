@@ -1,0 +1,22 @@
+PODS:
+  - AAChartKit (6.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AAChartKit
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - AAChartKit
+    - YYKit
+
+SPEC CHECKSUMS:
+  AAChartKit: dffacac3b641f2d2dc2fbf5f227350d22faee784
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 6ff3e7e32aab7a390f3314dfa69a5c0c86946c7e
+
+COCOAPODS: 1.9.3

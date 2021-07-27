@@ -1,0 +1,7 @@
+platform :ios, '14.5'
+
+target 'WaterAssistant' do
+pod 'AAChartKit'
+pod 'YYKit'
+
+end

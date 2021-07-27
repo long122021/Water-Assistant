@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="btnZero" destination="tyH-oI-yRn" id="zd3-ME-Ccz"/>
+                <outlet property="mapWater" destination="6fA-wH-HMc" id="zBW-kF-KrL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6fA-wH-HMc">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyH-oI-yRn">
+                    <rect key="frame" x="356" y="772" width="40" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="LAZ-c4-LBO"/>
+                        <constraint firstAttribute="height" constant="40" id="Tce-0h-wNG"/>
+                    </constraints>
+                    <size key="titleShadowOffset" width="1" height="1"/>
+                    <state key="normal" image="icon_zero.png">
+                        <color key="titleShadowColor" red="0.47058823529411764" green="0.47450980392156861" blue="0.57647058823529407" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onBackToLocation:" destination="-1" eventType="touchUpInside" id="Gbh-lK-FtL"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6fA-wH-HMc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="97z-sE-P12"/>
+                <constraint firstItem="6fA-wH-HMc" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="DVC-tZ-sjw"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="6fA-wH-HMc" secondAttribute="bottom" id="Nhb-R2-np8"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="tyH-oI-yRn" secondAttribute="bottom" constant="50" id="RZo-Av-jTx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="tyH-oI-yRn" secondAttribute="trailing" constant="18" id="j35-8y-IW6"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6fA-wH-HMc" secondAttribute="trailing" id="kfa-dy-f8X"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_zero.png" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
