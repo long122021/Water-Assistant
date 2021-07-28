@@ -26,7 +26,6 @@ Water Assistant是一种移动应用程序解决方案，可帮助水资源匮�
 ### How can technology help?
 
 * 提供水源地图，能够让用户随时查看附近水源情况 .
-* Real-time weather monitoring (*text and visual*).
 * 预测水源变化（水质、水深）.
 * 与专家工具交谈（使用人工智能机器人分享水资源利用、节约用水、健康用水等相关知识与技能）
 
@@ -64,7 +63,7 @@ Water Assistant借助IBM提供的Watson IoT Platform、Cloud Pak for Data、Mach
 #### Prerequisite
 * 注册一个 [IBM Cloud account](https://www.ibm.com/account/reg/us-en/signup?formid=urx-42793&eventid=cfc-2020).
 * 申请一个 [Weather Company API key](https://callforcode.weather.com/)
-* 注册一个 [Apple ID](https://appleid.apple.com/account).
+* 注册一个 [Apple ID](https://appleid.apple.com/account)
 
 #### Run it
 * 下载 Github 代码
