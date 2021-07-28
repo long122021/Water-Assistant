@@ -10,6 +10,7 @@ Water Assistant是一种移动应用程序解决方案，可帮助水资源匮�
 
 01. [Short Description](#Short-Description)
 02. [Demo Video](#Demo-Video)
+02. [Demo APP](#Demo-APP)
 03. [How it works](#How-it-works)
 06. [Project Roadmap](#Project-Roadmap)
 07. [Getting Started](#Getting-Started)
@@ -35,6 +36,12 @@ Water Assistant借助IBM提供的Watson IoT Platform、Cloud Pak for Data、Mach
 
 ## Demo Video <a name="Demo-Video"></a>
 [![Demo Video](https://github.com/long122021/Water-Assistant/blob/master/cover.png?raw=ture)](https://www.youtube.com/watch?v=VT4RKHwQ1hQ&t=65s "DEMO VIDEO")
+
+## Demo APP <a name="Demo-APP"></a>
+![picture alt](https://github.com/long122021/Water-Assistant/blob/master/app_1.GIF?raw=true)
+![picture alt](https://github.com/long122021/Water-Assistant/blob/master/app_2.GIF?raw=true)
+![picture alt](https://github.com/long122021/Water-Assistant/blob/master/app_3.GIF?raw=true)
+![picture alt](https://github.com/long122021/Water-Assistant/blob/master/app_4.GIF?raw=true)
 
 ## How it works <a name="How-it-works"></a>
 ![picture alt](https://github.com/long122021/Water-Assistant/blob/master/Architecture.png?raw=true)
