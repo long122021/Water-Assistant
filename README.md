@@ -35,7 +35,7 @@ Water Assistant借助IBM提供的Watson IoT Platform、Cloud Pak for Data、Mach
 
 
 ## Demo Video <a name="Demo-Video"></a>
-[![Demo Video](https://github.com/long122021/Water-Assistant/blob/master/cover.png?raw=ture)](https://www.youtube.com/watch?v=VT4RKHwQ1hQ&t=65s "DEMO VIDEO")
+[![Demo Video](https://github.com/long122021/Water-Assistant/blob/master/cover.png?raw=ture)]()
 
 ## Demo APP <a name="Demo-APP"></a>
 ![picture alt](https://github.com/long122021/Water-Assistant/blob/master/app_1.GIF?raw=true)
@@ -51,7 +51,10 @@ Water Assistant借助IBM提供的Watson IoT Platform、Cloud Pak for Data、Mach
 
 
 ## Project Roadmap <a name="Project-Roadmap"></a>
-![picture alt](https://github.com/long122021/Water-Assistant/blob/master/Roadmap.png?raw=true)
+<div  align="center">    
+<img src="https://github.com/long122021/Water-Assistant/blob/master/Roadmap.png?raw=true" width="50%" height="50%">
+</div>
+
 * 在第一阶段，我们专注于利用物联网技术，实现水质、水深监测，构建水源地图，给用户提供随时查看水源信息的可能.
 * 第二阶段，侧重于训练预测模型，预测水源变化，为用户提供水质、水深变化趋势，提出应对措施等.
 * 第三阶段，完善聊天机器人，实现自助查询最近洁净水源并导航前往；根据用户需求推荐农业灌溉、畜牧养殖等水资源利用方案等.
