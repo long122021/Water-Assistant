@@ -77,7 +77,6 @@ Water Assistant借助IBM提供的Watson IoT Platform、Cloud Pak for Data、Mach
 * [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio)
 * [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/)
 * [The Weather Company API](https://callforcode.weather.com/)   
-  Check out Agrolly's website  repository database [click here](https://github.com/helentsai17/agrolly)
 
 
 ## Authors <a name="Authors"></a>
