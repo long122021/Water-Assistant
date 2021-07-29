@@ -9,5 +9,11 @@
 
 @implementation WaterMachine
 
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{
+             @"waterData" : WaterData.class,
+             };
+}
+
 @end
 

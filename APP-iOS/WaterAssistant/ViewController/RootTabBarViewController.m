@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "ChatViewController.h"
 #import "MeViewController.h"
+#import "MiscUtils.h"
 
 @interface RootTabBarViewController ()<UITabBarControllerDelegate>
 
@@ -39,7 +40,8 @@
     meVC.tabBarItem = meItem;
     meVC.navigationItem.title = meItem.title;
     [arrVC addObject:meVC];
-    self.tabBar.tintColor = [UIColor colorWithRed:44/255.0 green:195/255.0 blue:248/255.0 alpha:255/255.0];
+//    self.tabBar.tintColor = [UIColor colorWithRed:44/255.0 green:195/255.0 blue:248/255.0 alpha:255/255.0];
+    self.tabBar.tintColor = ThemeColor;
     self.viewControllers = arrVC;
     
     self.navigationItem.title = homeVC.navigationItem.title;

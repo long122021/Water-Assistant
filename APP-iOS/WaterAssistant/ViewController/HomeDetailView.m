@@ -13,10 +13,13 @@
 @interface HomeDetailView ()
 
 @property (weak, nonatomic) IBOutlet UIView *viewBg;
+@property (weak, nonatomic) IBOutlet UIView *viewScoreBg;
 @property (weak, nonatomic) IBOutlet UILabel *lblScore;
 @property (weak, nonatomic) IBOutlet UILabel *lblDesc;
 @property (weak, nonatomic) IBOutlet UIButton *btnDetail;
 @property (weak, nonatomic) IBOutlet UIButton *btnHide;
+@property (weak, nonatomic) IBOutlet UILabel *lblWaterDepth;
+@property (weak, nonatomic) IBOutlet UILabel *lblWaterName;
 
 @property (nonatomic, strong)WaterMachine* data;
 @end
@@ -29,17 +32,20 @@
     _viewBg.layer.cornerRadius = 10;
     _btnDetail.layer.cornerRadius = 10;
     _btnHide.layer.cornerRadius = 10;
-    _lblScore.layer.cornerRadius = 12;
-    _lblScore.textColor = WaterColor_3;
-    _lblScore.layer.borderColor = _lblScore.textColor.CGColor;
-    _lblScore.layer.borderWidth = 2;
     
-//    UIColor* shadowColor = [UIColor grayColor];
-    //加阴影
-//    _btnHide.layer.shadowColor = shadowColor.CGColor;//shadowColor阴影颜色
-//    _btnHide.layer.shadowOffset = CGSizeMake(0,2);//shadowOffset阴影偏移,x向右偏移4，y向下偏移4，默认(0, -3),这个跟shadowRadius配合使用
-//    _btnHide.layer.shadowOpacity = 0.12;//阴影透明度，默认0
-//    _btnHide.layer.shadowRadius = 4;//阴影半径，默认3
+    _btnHide.layer.shadowColor = ShadowColor.CGColor;
+    _btnHide.layer.shadowOffset = CGSizeMake(0,0.5);
+    _btnHide.layer.shadowOpacity = 0.12;
+    _btnHide.layer.shadowRadius = 10;
+    _btnHide.clipsToBounds = NO;
+    
+    
+    _viewBg.layer.shadowColor = ShadowColor.CGColor;
+    _viewBg.layer.shadowOffset = CGSizeMake(0,0.5);
+    _viewBg.layer.shadowOpacity = 0.2;
+    _viewBg.layer.shadowRadius = 10;
+    _viewBg.clipsToBounds = NO;
+    
     
     [self addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(onTap)]];
 }
@@ -83,7 +89,14 @@
 
 - (void)loadData:(WaterMachine *)data{
     _data = data;
-    _lblScore.text = [NSString stringWithFormat:@"%.1f", data.score];
-    _lblDesc.text = data.desc;
+    _lblWaterName.text = data.name;
+    _lblScore.text = data.waterData.typeStr;
+    _lblDesc.text = data.waterData.desc;
+    _lblWaterDepth.text = [NSString stringWithFormat:@"%.1fm",data.waterData.depth];
+    
+    _lblScore.textColor = data.waterData.typeColor;
+    _viewScoreBg.layer.cornerRadius = 12;
+    _viewScoreBg.layer.borderColor = _lblScore.textColor.CGColor;
+    _viewScoreBg.layer.borderWidth = 2;
 }
 @end

@@ -31,7 +31,7 @@
 		283EEC6E2697F1730006DC0C /* water_nor_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC442697F1730006DC0C /* water_nor_1@2x.png */; };
 		283EEC6F2697F1730006DC0C /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC452697F1730006DC0C /* arrow_down@2x.png */; };
 		283EEC702697F1730006DC0C /* btn_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC462697F1730006DC0C /* btn_detail@2x.png */; };
-		283EEC712697F1730006DC0C /* launch1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC472697F1730006DC0C /* launch1@2x.png */; };
+		283EEC712697F1730006DC0C /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC472697F1730006DC0C /* launch@2x.png */; };
 		283EEC722697F1730006DC0C /* tabbar_me_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC482697F1730006DC0C /* tabbar_me_2@2x.png */; };
 		283EEC732697F1730006DC0C /* tabbar_chat_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC492697F1730006DC0C /* tabbar_chat_2@2x.png */; };
 		283EEC742697F1730006DC0C /* tabbar_home_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC4A2697F1730006DC0C /* tabbar_home_2@2x.png */; };
@@ -56,7 +56,34 @@
 		283EEC912698401B0006DC0C /* HomeDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283EEC902698401B0006DC0C /* HomeDetailView.m */; };
 		283EEC932698402C0006DC0C /* HomeDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283EEC922698402C0006DC0C /* HomeDetailView.xib */; };
 		283EEC98269A0E8F0006DC0C /* MiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 283EEC97269A0E8F0006DC0C /* MiscUtils.m */; };
-		284EDB77269A42A8009D3F6C /* page-1-6-iphone-11备份-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB76269A42A8009D3F6C /* page-1-6-iphone-11备份-3.png */; };
+		284EDB7B269EC69C009D3F6C /* AttributeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDB7A269EC69C009D3F6C /* AttributeView.m */; };
+		284EDB7D269EC6B0009D3F6C /* AttributeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB7C269EC6B0009D3F6C /* AttributeView.xib */; };
+		284EDB7F269ECB7E009D3F6C /* AttributeAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB7E269ECB7E009D3F6C /* AttributeAlertView.xib */; };
+		284EDB82269ECB8C009D3F6C /* AttributeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDB81269ECB8C009D3F6C /* AttributeAlertView.m */; };
+		284EDB86269EF400009D3F6C /* icon_?@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB83269EF400009D3F6C /* icon_?@2x.png */; };
+		284EDB87269EF400009D3F6C /* arrow_d_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB84269EF400009D3F6C /* arrow_d_up@2x.png */; };
+		284EDB88269EF400009D3F6C /* arrow_d_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB85269EF400009D3F6C /* arrow_d_down@2x.png */; };
+		284EDB8F269FCBEA009D3F6C /* btn_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB89269FCBE9009D3F6C /* btn_login@2x.png */; };
+		284EDB90269FCBEA009D3F6C /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB8A269FCBE9009D3F6C /* app_icon.png */; };
+		284EDB91269FCBEA009D3F6C /* icon_changeInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB8B269FCBE9009D3F6C /* icon_changeInfo.png */; };
+		284EDB92269FCBEA009D3F6C /* icon_changePsw.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB8C269FCBE9009D3F6C /* icon_changePsw.png */; };
+		284EDB93269FCBEA009D3F6C /* login_account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB8D269FCBEA009D3F6C /* login_account@2x.png */; };
+		284EDB94269FCBEA009D3F6C /* login_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB8E269FCBEA009D3F6C /* login_password@2x.png */; };
+		284EDB96269FCC31009D3F6C /* icon_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB95269FCC31009D3F6C /* icon_user@2x.png */; };
+		284EDB98269FD32F009D3F6C /* arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB97269FD32F009D3F6C /* arrow_right@2x.png */; };
+		284EDB9C269FD956009D3F6C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDB9A269FD956009D3F6C /* LoginViewController.m */; };
+		284EDB9D269FD956009D3F6C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284EDB9B269FD956009D3F6C /* LoginViewController.xib */; };
+		284EDBA1269FD97F009D3F6C /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDB9F269FD97F009D3F6C /* UserInfoViewController.m */; };
+		284EDBA2269FD97F009D3F6C /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284EDBA0269FD97F009D3F6C /* UserInfoViewController.xib */; };
+		284EDBA6269FD996009D3F6C /* ChangePswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBA4269FD996009D3F6C /* ChangePswViewController.m */; };
+		284EDBA7269FD996009D3F6C /* ChangePswViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284EDBA5269FD996009D3F6C /* ChangePswViewController.xib */; };
+		284EDBB026A0495B009D3F6C /* WaterMachineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBAF26A0495B009D3F6C /* WaterMachineRequest.m */; };
+		284EDBB326A04DD8009D3F6C /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBB226A04DD8009D3F6C /* BaseRequest.m */; };
+		284EDBB626A05063009D3F6C /* ApiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBB526A05063009D3F6C /* ApiUtils.m */; };
+		284EDBBB26A05F12009D3F6C /* WaterInfoDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBB926A05F12009D3F6C /* WaterInfoDetailRequest.m */; };
+		284EDBBC26A05F12009D3F6C /* WaterInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBBA26A05F12009D3F6C /* WaterInfoRequest.m */; };
+		284EDBBF26A161B0009D3F6C /* WaterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBBE26A161B0009D3F6C /* WaterData.m */; };
+		284EDBC226A65F28009D3F6C /* WaterPrediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EDBC126A65F28009D3F6C /* WaterPrediction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +136,7 @@
 		283EEC442697F1730006DC0C /* water_nor_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water_nor_1@2x.png"; sourceTree = "<group>"; };
 		283EEC452697F1730006DC0C /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
 		283EEC462697F1730006DC0C /* btn_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_detail@2x.png"; sourceTree = "<group>"; };
-		283EEC472697F1730006DC0C /* launch1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch1@2x.png"; sourceTree = "<group>"; };
+		283EEC472697F1730006DC0C /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
 		283EEC482697F1730006DC0C /* tabbar_me_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me_2@2x.png"; sourceTree = "<group>"; };
 		283EEC492697F1730006DC0C /* tabbar_chat_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_chat_2@2x.png"; sourceTree = "<group>"; };
 		283EEC4A2697F1730006DC0C /* tabbar_home_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_2@2x.png"; sourceTree = "<group>"; };
@@ -145,7 +172,46 @@
 		283EEC95269A0DA00006DC0C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		283EEC96269A0E8F0006DC0C /* MiscUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiscUtils.h; sourceTree = "<group>"; };
 		283EEC97269A0E8F0006DC0C /* MiscUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiscUtils.m; sourceTree = "<group>"; };
-		284EDB76269A42A8009D3F6C /* page-1-6-iphone-11备份-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page-1-6-iphone-11备份-3.png"; sourceTree = "<group>"; };
+		284EDB79269EC69C009D3F6C /* AttributeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeView.h; sourceTree = "<group>"; };
+		284EDB7A269EC69C009D3F6C /* AttributeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeView.m; sourceTree = "<group>"; };
+		284EDB7C269EC6B0009D3F6C /* AttributeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeView.xib; sourceTree = "<group>"; };
+		284EDB7E269ECB7E009D3F6C /* AttributeAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeAlertView.xib; sourceTree = "<group>"; };
+		284EDB80269ECB8C009D3F6C /* AttributeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeAlertView.h; sourceTree = "<group>"; };
+		284EDB81269ECB8C009D3F6C /* AttributeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeAlertView.m; sourceTree = "<group>"; };
+		284EDB83269EF400009D3F6C /* icon_?@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_?@2x.png"; sourceTree = "<group>"; };
+		284EDB84269EF400009D3F6C /* arrow_d_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_d_up@2x.png"; sourceTree = "<group>"; };
+		284EDB85269EF400009D3F6C /* arrow_d_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_d_down@2x.png"; sourceTree = "<group>"; };
+		284EDB89269FCBE9009D3F6C /* btn_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_login@2x.png"; sourceTree = "<group>"; };
+		284EDB8A269FCBE9009D3F6C /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		284EDB8B269FCBE9009D3F6C /* icon_changeInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_changeInfo.png; sourceTree = "<group>"; };
+		284EDB8C269FCBE9009D3F6C /* icon_changePsw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_changePsw.png; sourceTree = "<group>"; };
+		284EDB8D269FCBEA009D3F6C /* login_account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_account@2x.png"; sourceTree = "<group>"; };
+		284EDB8E269FCBEA009D3F6C /* login_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_password@2x.png"; sourceTree = "<group>"; };
+		284EDB95269FCC31009D3F6C /* icon_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_user@2x.png"; sourceTree = "<group>"; };
+		284EDB97269FD32F009D3F6C /* arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@2x.png"; sourceTree = "<group>"; };
+		284EDB99269FD956009D3F6C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		284EDB9A269FD956009D3F6C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		284EDB9B269FD956009D3F6C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		284EDB9E269FD97F009D3F6C /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		284EDB9F269FD97F009D3F6C /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		284EDBA0269FD97F009D3F6C /* UserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		284EDBA3269FD996009D3F6C /* ChangePswViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePswViewController.h; sourceTree = "<group>"; };
+		284EDBA4269FD996009D3F6C /* ChangePswViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePswViewController.m; sourceTree = "<group>"; };
+		284EDBA5269FD996009D3F6C /* ChangePswViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePswViewController.xib; sourceTree = "<group>"; };
+		284EDBAE26A0495B009D3F6C /* WaterMachineRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterMachineRequest.h; sourceTree = "<group>"; };
+		284EDBAF26A0495B009D3F6C /* WaterMachineRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMachineRequest.m; sourceTree = "<group>"; };
+		284EDBB126A04DD8009D3F6C /* BaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		284EDBB226A04DD8009D3F6C /* BaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		284EDBB426A05063009D3F6C /* ApiUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiUtils.h; sourceTree = "<group>"; };
+		284EDBB526A05063009D3F6C /* ApiUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiUtils.m; sourceTree = "<group>"; };
+		284EDBB726A05F11009D3F6C /* WaterInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterInfoRequest.h; sourceTree = "<group>"; };
+		284EDBB826A05F12009D3F6C /* WaterInfoDetailRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterInfoDetailRequest.h; sourceTree = "<group>"; };
+		284EDBB926A05F12009D3F6C /* WaterInfoDetailRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterInfoDetailRequest.m; sourceTree = "<group>"; };
+		284EDBBA26A05F12009D3F6C /* WaterInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterInfoRequest.m; sourceTree = "<group>"; };
+		284EDBBD26A161B0009D3F6C /* WaterData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterData.h; sourceTree = "<group>"; };
+		284EDBBE26A161B0009D3F6C /* WaterData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterData.m; sourceTree = "<group>"; };
+		284EDBC026A65F28009D3F6C /* WaterPrediction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterPrediction.h; sourceTree = "<group>"; };
+		284EDBC126A65F28009D3F6C /* WaterPrediction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterPrediction.m; sourceTree = "<group>"; };
 		4489C9868C6AC825CA1A005C /* Pods-WaterAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterAssistant.release.xcconfig"; path = "Target Support Files/Pods-WaterAssistant/Pods-WaterAssistant.release.xcconfig"; sourceTree = "<group>"; };
 		B12436DDA0F2087B740FDBF3 /* libPods-WaterAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2483FA171D343E038CCFA3 /* Pods-WaterAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterAssistant.debug.xcconfig"; path = "Target Support Files/Pods-WaterAssistant/Pods-WaterAssistant.debug.xcconfig"; sourceTree = "<group>"; };
@@ -244,19 +310,29 @@
 		283EEC352697F1730006DC0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				284EDB97269FD32F009D3F6C /* arrow_right@2x.png */,
+				284EDB95269FCC31009D3F6C /* icon_user@2x.png */,
+				284EDB8A269FCBE9009D3F6C /* app_icon.png */,
+				284EDB89269FCBE9009D3F6C /* btn_login@2x.png */,
+				284EDB8B269FCBE9009D3F6C /* icon_changeInfo.png */,
+				284EDB8C269FCBE9009D3F6C /* icon_changePsw.png */,
+				284EDB8D269FCBEA009D3F6C /* login_account@2x.png */,
+				284EDB8E269FCBEA009D3F6C /* login_password@2x.png */,
+				284EDB85269EF400009D3F6C /* arrow_d_down@2x.png */,
+				284EDB84269EF400009D3F6C /* arrow_d_up@2x.png */,
+				284EDB83269EF400009D3F6C /* icon_?@2x.png */,
 				283EEC362697F1730006DC0C /* tabbar_home_1@2x.png */,
 				283EEC372697F1730006DC0C /* tabbar_chat_1@2x.png */,
 				283EEC382697F1730006DC0C /* water */,
 				283EEC452697F1730006DC0C /* arrow_down@2x.png */,
 				283EEC462697F1730006DC0C /* btn_detail@2x.png */,
-				283EEC472697F1730006DC0C /* launch1@2x.png */,
+				283EEC472697F1730006DC0C /* launch@2x.png */,
 				283EEC482697F1730006DC0C /* tabbar_me_2@2x.png */,
 				283EEC492697F1730006DC0C /* tabbar_chat_2@2x.png */,
 				283EEC4A2697F1730006DC0C /* tabbar_home_2@2x.png */,
 				283EEC4B2697F1730006DC0C /* icon_zero@2x.png */,
 				283EEC4C2697F1730006DC0C /* icon_chat@2x.png */,
 				283EEC4D2697F1730006DC0C /* tabbar_me_1@2x.png */,
-				284EDB76269A42A8009D3F6C /* page-1-6-iphone-11备份-3.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -289,6 +365,12 @@
 				283EEC5D2697F1730006DC0C /* DetailViewController.h */,
 				283EEC562697F1730006DC0C /* DetailViewController.m */,
 				283EEC5B2697F1730006DC0C /* DetailViewController.xib */,
+				284EDB79269EC69C009D3F6C /* AttributeView.h */,
+				284EDB7A269EC69C009D3F6C /* AttributeView.m */,
+				284EDB7C269EC6B0009D3F6C /* AttributeView.xib */,
+				284EDB80269ECB8C009D3F6C /* AttributeAlertView.h */,
+				284EDB81269ECB8C009D3F6C /* AttributeAlertView.m */,
+				284EDB7E269ECB7E009D3F6C /* AttributeAlertView.xib */,
 				283EEC5A2697F1730006DC0C /* HomeViewController.h */,
 				283EEC512697F1730006DC0C /* HomeViewController.m */,
 				283EEC542697F1730006DC0C /* HomeViewController.xib */,
@@ -298,6 +380,15 @@
 				283EEC522697F1730006DC0C /* MeViewController.h */,
 				283EEC582697F1730006DC0C /* MeViewController.m */,
 				283EEC4F2697F1730006DC0C /* MeViewController.xib */,
+				284EDB99269FD956009D3F6C /* LoginViewController.h */,
+				284EDB9A269FD956009D3F6C /* LoginViewController.m */,
+				284EDB9B269FD956009D3F6C /* LoginViewController.xib */,
+				284EDB9E269FD97F009D3F6C /* UserInfoViewController.h */,
+				284EDB9F269FD97F009D3F6C /* UserInfoViewController.m */,
+				284EDBA0269FD97F009D3F6C /* UserInfoViewController.xib */,
+				284EDBA3269FD996009D3F6C /* ChangePswViewController.h */,
+				284EDBA4269FD996009D3F6C /* ChangePswViewController.m */,
+				284EDBA5269FD996009D3F6C /* ChangePswViewController.xib */,
 				283EEC592697F1730006DC0C /* RootNavigationController.h */,
 				283EEC502697F1730006DC0C /* RootNavigationController.m */,
 				283EEC5C2697F1730006DC0C /* RootTabBarViewController.h */,
@@ -320,8 +411,22 @@
 			children = (
 				283EEC85269817E90006DC0C /* WaterMachine.h */,
 				283EEC86269817E90006DC0C /* WaterMachine.m */,
+				284EDBBD26A161B0009D3F6C /* WaterData.h */,
+				284EDBBE26A161B0009D3F6C /* WaterData.m */,
+				284EDBC026A65F28009D3F6C /* WaterPrediction.h */,
+				284EDBC126A65F28009D3F6C /* WaterPrediction.m */,
 				283EEC8826981BC90006DC0C /* CustomAnnotation.h */,
 				283EEC8926981BC90006DC0C /* CustomAnnotation.m */,
+				284EDBAE26A0495B009D3F6C /* WaterMachineRequest.h */,
+				284EDBAF26A0495B009D3F6C /* WaterMachineRequest.m */,
+				284EDBB826A05F12009D3F6C /* WaterInfoDetailRequest.h */,
+				284EDBB926A05F12009D3F6C /* WaterInfoDetailRequest.m */,
+				284EDBB726A05F11009D3F6C /* WaterInfoRequest.h */,
+				284EDBBA26A05F12009D3F6C /* WaterInfoRequest.m */,
+				284EDBB126A04DD8009D3F6C /* BaseRequest.h */,
+				284EDBB226A04DD8009D3F6C /* BaseRequest.m */,
+				284EDBB426A05063009D3F6C /* ApiUtils.h */,
+				284EDBB526A05063009D3F6C /* ApiUtils.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -448,23 +553,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284EDB96269FCC31009D3F6C /* icon_user@2x.png in Resources */,
+				284EDB93269FCBEA009D3F6C /* login_account@2x.png in Resources */,
+				284EDB91269FCBEA009D3F6C /* icon_changeInfo.png in Resources */,
+				284EDB7D269EC6B0009D3F6C /* AttributeView.xib in Resources */,
 				283EEC622697F1730006DC0C /* tabbar_chat_1@2x.png in Resources */,
+				284EDB98269FD32F009D3F6C /* arrow_right@2x.png in Resources */,
 				283EEC7B2697F1730006DC0C /* ChatViewController.xib in Resources */,
 				283EEC722697F1730006DC0C /* tabbar_me_2@2x.png in Resources */,
+				284EDB87269EF400009D3F6C /* arrow_d_up@2x.png in Resources */,
 				283EEC6D2697F1730006DC0C /* water_nor_3@2x.png in Resources */,
 				283EEC082697F1030006DC0C /* LaunchScreen.storyboard in Resources */,
+				284EDB92269FCBEA009D3F6C /* icon_changePsw.png in Resources */,
+				284EDB8F269FCBEA009D3F6C /* btn_login@2x.png in Resources */,
 				283EEC6F2697F1730006DC0C /* arrow_down@2x.png in Resources */,
 				283EEC8D26983E7C0006DC0C /* water_sel_1@2x.png in Resources */,
+				284EDB7F269ECB7E009D3F6C /* AttributeAlertView.xib in Resources */,
 				283EEC932698402C0006DC0C /* HomeDetailView.xib in Resources */,
+				284EDB86269EF400009D3F6C /* icon_?@2x.png in Resources */,
 				283EEC812697F1730006DC0C /* DetailViewController.xib in Resources */,
 				283EEC612697F1730006DC0C /* tabbar_home_1@2x.png in Resources */,
 				283EEC6E2697F1730006DC0C /* water_nor_1@2x.png in Resources */,
 				283EEC782697F1730006DC0C /* MeViewController.xib in Resources */,
 				283EEC6A2697F1730006DC0C /* water_nor_5@2x.png in Resources */,
 				283EEC8E26983E7C0006DC0C /* water_sel_2@2x.png in Resources */,
-				284EDB77269A42A8009D3F6C /* page-1-6-iphone-11备份-3.png in Resources */,
-				283EEC712697F1730006DC0C /* launch1@2x.png in Resources */,
+				284EDB88269EF400009D3F6C /* arrow_d_down@2x.png in Resources */,
+				284EDBA2269FD97F009D3F6C /* UserInfoViewController.xib in Resources */,
+				283EEC712697F1730006DC0C /* launch@2x.png in Resources */,
 				283EEC632697F1730006DC0C /* water_nor_4@2x.png in Resources */,
+				284EDB94269FCBEA009D3F6C /* login_password@2x.png in Resources */,
 				283EEC662697F1730006DC0C /* water_sel_5@2x.png in Resources */,
 				283EEC682697F1730006DC0C /* water_sel_3@2x.png in Resources */,
 				283EEC652697F1730006DC0C /* water_nor_6@2x.png in Resources */,
@@ -474,10 +591,13 @@
 				283EEC7C2697F1730006DC0C /* HomeViewController.xib in Resources */,
 				283EEC032697F1010006DC0C /* Main.storyboard in Resources */,
 				283EEC692697F1730006DC0C /* water_sel_6@2x.png in Resources */,
+				284EDB9D269FD956009D3F6C /* LoginViewController.xib in Resources */,
 				283EEC732697F1730006DC0C /* tabbar_chat_2@2x.png in Resources */,
 				283EEC752697F1730006DC0C /* icon_zero@2x.png in Resources */,
 				283EEC772697F1730006DC0C /* tabbar_me_1@2x.png in Resources */,
+				284EDBA7269FD996009D3F6C /* ChangePswViewController.xib in Resources */,
 				283EEC702697F1730006DC0C /* btn_detail@2x.png in Resources */,
+				284EDB90269FCBEA009D3F6C /* app_icon.png in Resources */,
 				283EEC762697F1730006DC0C /* icon_chat@2x.png in Resources */,
 				283EEC672697F1730006DC0C /* water_nor_2@2x.png in Resources */,
 			);
@@ -548,18 +668,30 @@
 			files = (
 				283EEC002697F1010006DC0C /* ViewController.m in Sources */,
 				283EEBFA2697F1010006DC0C /* AppDelegate.m in Sources */,
+				284EDBB626A05063009D3F6C /* ApiUtils.m in Sources */,
 				283EEC0B2697F1030006DC0C /* main.m in Sources */,
+				284EDBBB26A05F12009D3F6C /* WaterInfoDetailRequest.m in Sources */,
+				284EDBBC26A05F12009D3F6C /* WaterInfoRequest.m in Sources */,
 				283EEC8A26981BC90006DC0C /* CustomAnnotation.m in Sources */,
+				284EDBBF26A161B0009D3F6C /* WaterData.m in Sources */,
+				284EDBB326A04DD8009D3F6C /* BaseRequest.m in Sources */,
 				283EEC7E2697F1730006DC0C /* DetailViewController.m in Sources */,
+				284EDBB026A0495B009D3F6C /* WaterMachineRequest.m in Sources */,
 				283EEC802697F1730006DC0C /* MeViewController.m in Sources */,
+				284EDB82269ECB8C009D3F6C /* AttributeAlertView.m in Sources */,
+				284EDB9C269FD956009D3F6C /* LoginViewController.m in Sources */,
 				283EEC792697F1730006DC0C /* RootNavigationController.m in Sources */,
 				283EEC7F2697F1730006DC0C /* RootTabBarViewController.m in Sources */,
 				283EEBFD2697F1010006DC0C /* SceneDelegate.m in Sources */,
 				283EEC87269817E90006DC0C /* WaterMachine.m in Sources */,
 				283EEC912698401B0006DC0C /* HomeDetailView.m in Sources */,
 				283EEC7D2697F1730006DC0C /* ChatViewController.m in Sources */,
+				284EDB7B269EC69C009D3F6C /* AttributeView.m in Sources */,
 				283EEC7A2697F1730006DC0C /* HomeViewController.m in Sources */,
 				283EEC98269A0E8F0006DC0C /* MiscUtils.m in Sources */,
+				284EDBA1269FD97F009D3F6C /* UserInfoViewController.m in Sources */,
+				284EDBC226A65F28009D3F6C /* WaterPrediction.m in Sources */,
+				284EDBA6269FD996009D3F6C /* ChangePswViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

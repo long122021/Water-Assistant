@@ -1,22 +1,40 @@
 PODS:
   - AAChartKit (6.0.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AAChartKit
+  - AFNetworking (~> 4.0)
   - YYKit
 
 SPEC REPOS:
   trunk:
     - AAChartKit
+    - AFNetworking
     - YYKit
 
 SPEC CHECKSUMS:
   AAChartKit: dffacac3b641f2d2dc2fbf5f227350d22faee784
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 6ff3e7e32aab7a390f3314dfa69a5c0c86946c7e
+PODFILE CHECKSUM: 4aababca69ce10cce7a8ca6087c3e0e46600c0e8
 
 COCOAPODS: 1.9.3

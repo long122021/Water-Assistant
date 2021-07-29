@@ -11,13 +11,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define ThemeColor    UIColorHex(#00A8E2)
 
-#define WaterColor_1    UIColorHex(#00A8E2)
-#define WaterColor_2    UIColorHex(#0DE4CD)
-#define WaterColor_3    UIColorHex(#4ABB35)
-#define WaterColor_4    UIColorHex(#F3D800)
-#define WaterColor_5    UIColorHex(#ED7F00)
-#define WaterColor_6    UIColorHex(#F82C2C)
+/*
+ 5396D5
+ 5AA967
+ EAC646
+ ED712E
+ C73236
+ 39495C
+ */
 
+#define WaterColor_1    UIColorHex(#5396D5)
+#define WaterColor_2    UIColorHex(#5AA967)
+#define WaterColor_3    UIColorHex(#EAC646)
+#define WaterColor_4    UIColorHex(#ED712E)
+#define WaterColor_5    UIColorHex(#C73236)
+#define WaterColor_6    UIColorHex(#39495C)
+
+
+#define ShadowColor      UIColorHex(#787993)
 @interface MiscUtils : NSObject
 
 

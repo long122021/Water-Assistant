@@ -6,25 +6,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WaterData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WaterMachine : NSObject
 //id
-@property (nonatomic, strong)NSString* machineId;
+@property (nonatomic, strong)NSString* watermachineId;
 //longitude
 @property (nonatomic, assign)double longitude;
 //latitude
 @property (nonatomic, assign)double latitude;
 //name
 @property (nonatomic, strong)NSString* name;
-//score
-@property (nonatomic, assign)float score;
-//type
-@property (nonatomic, assign)int type;
-//desc
-@property (nonatomic, strong)NSString* desc;
-
+//Water Data
+@property (nonatomic, strong)WaterData* waterData;
 @end
 
 NS_ASSUME_NONNULL_END
