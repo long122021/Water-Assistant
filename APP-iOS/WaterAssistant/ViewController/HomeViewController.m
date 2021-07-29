@@ -78,8 +78,8 @@
     // 设置当前地图的显示中心和显示范围
     [_mapWater setRegion:region animated:YES];
     
-//    [self getTestData];
-    [self loadWaterData];
+    [self getTestData];
+//    [self loadWaterData];
 }
 - (IBAction)onBackToLocation:(id)sender {
     

@@ -46,9 +46,9 @@
     _lblRecommendTitle.textColor = ThemeColor;
     
     
-//    [self getTestAttribute];
+    [self getTestAttribute];
     [self loadData];
-    [self downloadPrediction];
+//    [self downloadPrediction];
 }
 
 - (void)loadData{
@@ -231,7 +231,7 @@
     
     AAChartModel *aaWaterChartModel = AAChartModel.new
     .chartTypeSet(AAChartTypeSpline)
-    .titleSet(@"Water Level Prediction")//设置图表标题
+    .titleSet(@"Water Depth Prediction")//设置图表标题
     .titleStyleSet(AAStyleColorSizeWeight(AARgbaColor(0, 168, 226, 1), 16, @"bold"))
     .yAxisTitleSet(@"Unit m")
     .categoriesSet(arrDay)

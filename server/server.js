@@ -3,7 +3,6 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 
-const healthRoutes = require('./routes/health-route');
 const swaggerRoutes = require('./routes/swagger-route');
 
 const waterMachineRoutes = require('./routes/waterMachine-route');

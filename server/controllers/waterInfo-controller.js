@@ -66,31 +66,31 @@ let saveWater = (req) => {
     var desc = '';
     switch (type){
         case 1:
-            desc = '水质级别是1，很好，可用于农业、生活，简单消毒后即可饮用';
+            desc = 'Mainly suitable for source water and national nature reserves; the best water source can be used for life, agriculture, household drinking, etc.';
             break;
         case 2:
-            desc = '水质级别是2，很好，可用于农业、生活，简单过滤、消毒后即可饮用';
+            desc = 'It is mainly suitable for the first-level protection area of the surface water source of the centralized drinking water, the habitat of rare aquatic organisms, the fish and shrimp production field, the feeding ground of the larvae, juveniles, etc.; the water quality is very good, and it can be used for domestic, agricultural, and household drinking, etc.The current water level is low and there is a risk of drying up, please pay attention.';
             break;
         case 3:
-            desc = '水质级别是3，较好，可用于农业、生活，过滤和消毒后可饮用.主要适用于集中式生活饮用水地表水源地二级保护区、鱼虾类越冬场、洄游通道、水产养殖区等渔业水域及游泳区';
+            desc = 'It is mainly suitable for centralized domestic and drinking water surface water source areas, secondary protection areas, fish and shrimp overwintering grounds, migration channels, aquaculture areas and other fishery waters and swimming areas; the water quality is good and can be used for life, agriculture, etc., household drinking needs to be purified disinfect.';
             break;
         case 4:
-            desc = '水质级别是4，一般，可以用于农业、工业，不能用于生活，不可饮用';
+            desc = 'Mainly suitable for general industrial water areas and recreational water areas where the human body is not in direct contact; the water quality is average, can be used in industry, agriculture, etc., not suitable for household drinking.';
             break;
         case 5:
-            desc = '水质级别是5，较差，一般可以农业灌溉使用，不能用于生活，不可饮用';
+            desc = 'Mainly suitable for agricultural water areas and water areas with general landscape requirements; the water quality is poor and can be used for agriculture but not for household drinking.';
             break;
         case 6:
-            desc = '水质级别是6，非常差，未经处理不能使用';
+            desc = 'The pollution is serious and the water quality is very poor. It cannot be used directly. If it needs to be used, it must be treated with strict filtration and purification.The current water level is low and there is a risk of drying up, please pay attention.';
             break;
         default:
-            desc = '没监测到水质';
+            desc = 'No Data.';
             break;
     }
     if (req.depth <= 1){
-        desc += '水位线很低，接近干涸，需要近况储存水';
+        desc += 'The water level is very low, it is almost dry, and the water needs to be stored as soon as possible.';
     }else if(req.depth <= 3){
-        desc += '水位线较低，有干涸的风险，请多留意';
+        desc += 'The water level is low, there is a risk of drying up, please pay attention.';
     }
 
     return new Promise(function (resolve, reject) {
